@@ -14,5 +14,10 @@ namespace CSharpInterfacesExercise
         {
             _activities = new List<IActivity>();
         }
+
+        public void AddActivity(IActivity activity)
+        {
+            _activities.Add(activity);
+        }
     }
 }

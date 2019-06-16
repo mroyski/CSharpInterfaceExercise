@@ -10,7 +10,8 @@ namespace CSharpInterfacesExercise
     {
         static void Main(string[] args)
         {
-
+            var workEngine = new WorkFlowEngine();
+            var flowOne = new WorkFlow();
         }
     }
 }
