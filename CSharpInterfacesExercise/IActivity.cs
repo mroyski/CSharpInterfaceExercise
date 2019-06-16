@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharpInterfacesExercise
 {
-    class Program
+    public interface IActivity
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Execute();
     }
 }
