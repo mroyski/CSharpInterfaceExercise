@@ -8,7 +8,7 @@ namespace CSharpInterfacesExercise
 {
     public class WorkFlow
     {
-        private readonly IList<IActivity> _activities;
+        public readonly IList<IActivity> _activities;
 
         public WorkFlow()
         {

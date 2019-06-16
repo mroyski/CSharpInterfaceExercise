@@ -10,7 +10,10 @@ namespace CSharpInterfacesExercise
     {
         public void Run(WorkFlow workFlow)
         {
-
+            foreach(var activity in workFlow._activities)
+            {
+                activity.Execute();
+            }
         }
     }
 }
